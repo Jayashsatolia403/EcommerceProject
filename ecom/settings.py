@@ -68,7 +68,7 @@ REST_FRAMEWORK = {
 
 LOGIN_URL = 'login_view'
 LOGIN_REDIRECT_URL = 'frontpage'
-LOGOUT_REDIRECT_URL = 'frontpage
+LOGOUT_REDIRECT_URL = 'frontpage'
 
 
 SESSION_COOKIE_AGE = 86400
