@@ -68,15 +68,7 @@ REST_FRAMEWORK = {
 
 LOGIN_URL = 'login_view'
 LOGIN_REDIRECT_URL = 'frontpage'
-LOGOUT_REDIRECT_URL = 'frontpage'
-
-EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_USE_TLS = True
-EMAIL_PORT = 587
-EMAIL_HOST_USER = "jayashsatolia@gmail.com"
-EMAIL_HOST_PASSWORD = "5Zqh7bf8OjiQ"
-
+LOGOUT_REDIRECT_URL = 'frontpage
 
 
 SESSION_COOKIE_AGE = 86400
